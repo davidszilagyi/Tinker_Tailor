@@ -3,21 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NUnit.Framework;
 
 namespace Tinker_Tailor
 {
-    [TestFixture]
-    class Test
+    class Solver<T> : ISolver<T>
     {
-        private Solver<int> test1 = new Solver<int>();
-        private Solver<string> test2 = new Solver<string>();
-
-        [Test]
-        public void TestSolution()
+        void ISolver<T>.Solver(int remove, params T[] arr)
         {
             throw new NotImplementedException();
         }
-
     }
 }
