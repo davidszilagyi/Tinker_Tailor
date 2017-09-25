@@ -17,6 +17,7 @@ namespace Tinker_Tailor
         public void TestSolution()
         {
             Assert.AreEqual(new int[] { 4 }, test1.Solve(3, 1, 2, 3, 4, 5));
+            Assert.AreEqual(new string[] { "Codeing" }, test2.Solve(3, "Codecool","Miskolc","2017","Codeing", "Programming"));
         }
 
     }

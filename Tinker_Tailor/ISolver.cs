@@ -8,6 +8,6 @@ namespace Tinker_Tailor
 {
     interface ISolver<T>
     {
-        T[] Solve(T remove, params T[] arr);
+        T[] Solve(int remove, params T[] arr);
     }
 }

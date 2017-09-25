@@ -8,7 +8,7 @@ namespace Tinker_Tailor
 {
     class Solver<T> : ISolver<T>
     {
-        public T[] Solve(T remove, params T[] arr)
+        public T[] Solve(int remove, params T[] arr)
         {
             throw new NotImplementedException();
         }
