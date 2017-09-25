@@ -16,7 +16,7 @@ namespace Tinker_Tailor
         [Test]
         public void TestSolution()
         {
-            throw new NotImplementedException();
+            Assert.AreEqual(new int[] { 4 }, test1.Solve(3, 1, 2, 3, 4, 5));
         }
 
     }
